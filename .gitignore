@@ -1,0 +1,5 @@
+*.gba
+*.o
+*.sav
+*.a
+object/

@@ -1,0 +1,35 @@
+/*
+ * Define symbols in this file, which can be used in your C code as
+ * method definitions to call internal functions, or access internal
+ * memory areas (structures etc. )
+ */
+
+script_reset_environments_and_start = 0x08069AE4|1;
+in_trade_center = 0x0811B0D0|1;
+happiness_algorithm_step = 0x0806D74C|1;
+is_tile_control_override = 0x08059D70|1;
+overworld_poison_step = 0x0806D79C|1;
+get_egg = 0x080463B8|1;
+sav_xor_increment = 0x08054E90|1;
+safari_step = 0x080A0F0C|1;
+script_walk_810c4ec = 0x0810C4EC|1;
+
+__aeabi_idiv = 0x081E4018|1;
+__aeabi_idivmod = 0x081E40F4|1;
+__aeabi_uidiv = 0x081E460C|1;
+__aeabi_uidivmod = 0x081E4684|1;
+
+memset = 0x081E5ED8|1;
+memcpy = 0x081E5E78|1;
+vram_decompress = 0x081E3B6C|1;
+wram_decompress = 0x081E3B70|1;
+random = 0x08044EC8|1;
+malloc = 0x08002BB0|1;
+free = 0x08002BC4|1;
+
+scr_overworld_poison_death = 0x081A8DFD;
+scr_egg_hatch = 0x081BF546;
+scr_unk_per_step_end = 0x081A8CED;
+
+prev_quest_mode = 0x0203ADFA;
+walkrun_state = 0x02037078|1;
