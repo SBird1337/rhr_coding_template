@@ -7,7 +7,7 @@
 
 .gba
 .thumb
-.open "base/bpre0.gba","build/pkmn_sots.gba",0x08000000
+.open "base/bpre0.gba","build/YOUR_PROJECT.gba",0x08000000
 
 //you can include other files like so, the path is arbitrary
 

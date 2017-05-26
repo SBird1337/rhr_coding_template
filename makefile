@@ -47,6 +47,8 @@ SOURCEDIR := src
 LINKER	:= linker.lsc
 SYMBOLS := bpre.sym
 
+PROJECT_NAME	:= YOUR_PROJECT
+
 MAIN_OBJ	:= $(BLDPATH)/linked.o
 
 ### some commands to make enumerating files     ###
@@ -107,4 +109,4 @@ clean:
 
 .PHONY: run
 run: rom
-	$(VBA) "build/pkmn_sots.gba"
+	$(VBA) "build/$(PROJECT_NAME).gba"
