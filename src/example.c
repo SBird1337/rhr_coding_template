@@ -31,7 +31,7 @@ bool ex_per_step_scripts(u16 tile_to)
         /* this is custom added code, will be executed if we step on grass in
          * bpre vanilla, which has behavior id 0x2
          */
-        dprintf("we just stepped on grass, tile_id is %d", tile_id);
+        dprintf("we just stepped on grass, tile_to is %d", tile_to);
         /* this also shows off the debug functionality of this template, the string
          * above will be printed to the vba log, if you are using vba
          */
